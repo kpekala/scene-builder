@@ -35,11 +35,7 @@ public class Menu extends BaseFragment {
     @Override
     public void initFragment() {
         setMinHeight(HEIGHT);
-    }
-
-    public void appendNodes(){
-        vBox.getChildren().addAll(textChooseScene, fieldSceneName, buttonLoad, buttonSave);
-        getChildren().add(vBox);
+        setMinWidth(WIDTH);
     }
 
     public void initNodes() {
@@ -57,10 +53,17 @@ public class Menu extends BaseFragment {
         buttonSave.setMinWidth(100);
 
         vBox = new VBox(16);
-        vBox.setBackground(new Background(new BackgroundFill(
-                Color.web(Colors.LIGHT), CornerRadii.EMPTY, Insets.EMPTY)));
+        vBox.setStyle("-fx-background-color: " + Colors.getGrey(0.8));
+
         vBox.setPadding(new Insets(20, 20, 0 ,20));
         vBox.setAlignment(Pos.TOP_CENTER);
         vBox.setMinHeight(HEIGHT);
     }
+
+    public void appendNodes(){
+        vBox.getChildren().addAll(textChooseScene, fieldSceneName, buttonLoad, buttonSave);
+        getChildren().add(vBox);
+    }
+
+
 }
