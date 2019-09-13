@@ -25,6 +25,12 @@ public class Controller {
         }
     }
 
+    public void onBlockNeedToRemove(Block block){
+        if(!pickedImage.isEmpty()){
+            gameScene.removeImage(block);
+        }
+    }
+
     public void onImageToPickClicked(String clickedImage){
         if(!clickedImage.equals(pickedImage)){
             imagePicker.notifyClickedItemChanged(pickedImage, clickedImage);

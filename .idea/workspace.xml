@@ -2,67 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/fragments/ImagePicker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ui/nodes/ImageToPick.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/Assets.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/ImagePathGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/scene-builder.iml" afterPath="$PROJECT_DIR$/scene-builder.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/cegla.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/brick.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/deska.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/deska.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/drzwi1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/drzwi1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/drzwi2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/drzwi2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/drzwi3.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/drzwi3.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamien0.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/stone0.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamien1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/kamien1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamien2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/kamien2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamien2M.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/kamien2M.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamien3.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/kamien3.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/kamienM.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/kamienM.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/liscie.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/liscie.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/lozko1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/lozko1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/lozko2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/lozko2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/mury0.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/mury0.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/mury1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/mury1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/mury2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/mury2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/piasek0.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/piasek0.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/piasek1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/piasek1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/piasek2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/piasek2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/piasek3.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/piasek3.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/pien.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/trunk.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/player0.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/player0.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/player1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/player1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/player2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/player2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/player_anim.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/player_anim.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/pocisk.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/pocisk.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/podloga.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/podloga.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/rekaE.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/rekaE.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/scenes/1.txt" afterPath="$PROJECT_DIR$/src/main/resources/assets/scenes/1.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/skrzynia1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/skrzynia1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/skrzynia2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/skrzynia2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/tlo1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/tlo1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/tlo2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/tlo2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/tlo3.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/tlo3.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/tlo4.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/tlo4.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/trawa.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/trawa.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/trawaM.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/trawaM.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemia0.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/ziemia0.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemia1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/ziemia1.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemia2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/ziemia2.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemia3.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/ziemia3.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemiaM.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/dirt.png" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assets/ziemioTrawaM.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/ziemioTrawaM.png" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/fragments/GameScene.java" afterPath="$PROJECT_DIR$/src/main/java/ui/fragments/GameScene.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/fragments/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/ui/fragments/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/main/App.java" afterPath="$PROJECT_DIR$/src/main/java/ui/main/App.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/nodes/Block.java" afterPath="$PROJECT_DIR$/src/main/java/ui/nodes/Block.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Colors.java" afterPath="$PROJECT_DIR$/src/main/java/utils/Colors.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GameUtils.java" afterPath="$PROJECT_DIR$/src/main/java/utils/GameUtils.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,25 +68,64 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/GameUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameScene.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/fragments/GameScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="359">
+              <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/fragments/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/nodes/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <folding>
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,10 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/ImagePathGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/main/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/nodes/ImageToPick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/nodes/Block.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/fragments/ImagePicker.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/GameUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/nodes/Block.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/fragments/GameScene.java" />
       </list>
     </option>
@@ -240,57 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-              <item name="scenes" type="cbb8eebc:String" user="scenes" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scene-builder" type="58d84e3e:PackageViewProjectNode" />
-              <item name="scene-builder" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,6 +305,56 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="assets" type="cbb8eebc:String" user="assets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="assets" type="cbb8eebc:String" user="assets" />
+              <item name="scenes" type="cbb8eebc:String" user="scenes" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="scene-builder" type="cbb8eebc:String" user="scene-builder" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scene-builder" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scene-builder" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,7 +371,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Game&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/GameScene.java&#10;Blo&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/nodes/Block.java&#10;GameS&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/GameScene.java&#10;App&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/main/App.java&#10;Main&#9;RUN_CONFIGURATION&#9;Main&#10;Co&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/controller/Controller.java&#10;ImagePicker&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/ImagePicker.java&#10;Me&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/Menu.java&#10;cons&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/controller/Controller.java&#10;blo&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/nodes/Block.java&#10;Menu&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/ui/fragments/Menu.java&#10;app&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/ui/main/App.java" />
+    <property name="SearchEverywhereHistoryKey" value="Menu&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/Menu.java&#10;Game&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/GameScene.java&#10;Blo&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/nodes/Block.java&#10;GameS&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/GameScene.java&#10;App&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/main/App.java&#10;Main&#9;RUN_CONFIGURATION&#9;Main&#10;Co&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/controller/Controller.java&#10;ImagePicker&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/ImagePicker.java&#10;Me&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/fragments/Menu.java&#10;cons&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/controller/Controller.java&#10;blo&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/main/java/ui/nodes/Block.java&#10;app&#9;FILE&#9;file://C:/Users/Admin/Desktop/Projekty/Kotlin/scene-builder/src/ui/main/App.java" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -551,8 +533,7 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -562,12 +543,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43953934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1778742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21321961" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153518" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -702,18 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/fragments/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="59" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#833#834#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/mury0.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -775,8 +744,8 @@
         <state relative-caret-position="96">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,28 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/nodes/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,10 +788,10 @@
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1083#1084#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -855,8 +802,8 @@
           <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,24 +871,57 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/GameUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/nodes/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/fragments/GameScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="359">
+          <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/fragments/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

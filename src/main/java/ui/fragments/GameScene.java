@@ -31,6 +31,9 @@ public class GameScene extends BaseFragment{
                     if(event.isControlDown()){
                         controller.onBlockClicked(block);
                     }
+                    if(event.isShiftDown()){
+                        controller.onBlockNeedToRemove(block);
+                    }
                 });
 
                 blocks.add(block);
@@ -55,4 +58,7 @@ public class GameScene extends BaseFragment{
     }
 
 
+    public void removeImage(Block block) {
+        block.removeImage();
+    }
 }
