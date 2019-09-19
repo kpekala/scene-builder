@@ -1,6 +1,6 @@
 package ui.fragments;
 
-import controller.Controller;
+import controller.AppController;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.layout.HBox;
@@ -10,7 +10,6 @@ import utils.Colors;
 import utils.GameUtils;
 import utils.ScreenUtils;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class ImagePicker extends BaseFragment {
@@ -22,8 +21,8 @@ public class ImagePicker extends BaseFragment {
     private HBox hBox;
     private ArrayList<ImageToPick> imagesToPick;
 
-    public ImagePicker(Controller controller) {
-        super(controller);
+    public ImagePicker(AppController appController) {
+        super(appController);
     }
 
     @Override
@@ -39,7 +38,7 @@ public class ImagePicker extends BaseFragment {
 
         GameUtils.imagesMap.forEach((imageName, imagePath) -> {
             ImageToPick image = new ImageToPick(imageName);
-            image.setOnMouseClicked(event -> controller.onImageToPickClicked(image.name));
+            image.setOnMouseClicked(event -> appController.onImageToPickClicked(image.name));
 
             imagesToPick.add(image);
         });

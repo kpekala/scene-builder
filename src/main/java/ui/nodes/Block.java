@@ -24,6 +24,7 @@ public class Block extends ImageView {
     }
 
     public void setImage(String imageName){
+        this.imageName = imageName;
         setImage(new Image(ImagePathGenerator.getPath(imageName)));
     }
 

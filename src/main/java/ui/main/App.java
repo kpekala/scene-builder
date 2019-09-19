@@ -1,6 +1,6 @@
 package ui.main;
 
-import controller.Controller;
+import controller.AppController;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -12,7 +12,7 @@ import utils.ScreenUtils;
 
 public class App extends Application {
 
-    private Controller controller = new Controller();
+    private AppController appController = new AppController();
 
     private Menu menu;
     private GameScene scene;
@@ -22,11 +22,11 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception{
         primaryStage.setTitle("GameScene builder");
 
-        menu = new Menu(controller);
-        scene = new GameScene(controller);
-        imagePicker = new ImagePicker(controller);
+        menu = new Menu(appController);
+        scene = new GameScene(appController);
+        imagePicker = new ImagePicker(appController);
 
-        controller.initViews(menu,scene,imagePicker);
+        appController.initViews(menu,scene,imagePicker);
 
         Group root = new Group();
 

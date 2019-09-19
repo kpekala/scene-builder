@@ -1,14 +1,14 @@
 package ui.base;
 
-import controller.Controller;
+import controller.AppController;
 import javafx.scene.layout.Pane;
 
 public abstract class BaseFragment extends Pane {
 
-    protected Controller controller;
+    protected AppController appController;
 
-    public BaseFragment(Controller controller){
-        this.controller = controller;
+    public BaseFragment(AppController appController){
+        this.appController = appController;
 
         initFragment();
         initNodes();

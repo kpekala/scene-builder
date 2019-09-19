@@ -1,7 +1,6 @@
 package ui.fragments;
 
-import controller.Controller;
-import javafx.scene.input.MouseEvent;
+import controller.AppController;
 import ui.base.BaseFragment;
 import ui.nodes.Block;
 import utils.GameUtils;
@@ -17,8 +16,8 @@ public class GameScene extends BaseFragment{
 
     private ArrayList<Block> blocks;
 
-    public GameScene(Controller controller) {
-        super(controller);
+    public GameScene(AppController appController) {
+        super(appController);
     }
 
     @Override
@@ -29,10 +28,10 @@ public class GameScene extends BaseFragment{
                 Block block = new Block(j, i);
                 block.setOnMouseMoved(event -> {
                     if(event.isControlDown()){
-                        controller.onBlockClicked(block);
+                        appController.onBlockClicked(block);
                     }
                     if(event.isShiftDown()){
-                        controller.onBlockNeedToRemove(block);
+                        appController.onBlockNeedToRemove(block);
                     }
                 });
 
@@ -51,6 +50,10 @@ public class GameScene extends BaseFragment{
         setMinWidth(WIDTH);
         setMinHeight(HEIGHT);
         setTranslateX(START_X);
+    }
+
+    public ArrayList<Block> getBlocks() {
+        return blocks;
     }
 
     public void addImageTo(Block block, String imageName){
