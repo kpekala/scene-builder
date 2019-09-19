@@ -4,6 +4,7 @@ import controller.AppController;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 import ui.fragments.GameScene;
 import ui.fragments.ImagePicker;
@@ -12,7 +13,7 @@ import utils.ScreenUtils;
 
 public class App extends Application {
 
-    private AppController appController = new AppController();
+    private AppController appController = new AppController(this);
 
     private Menu menu;
     private GameScene scene;
@@ -37,6 +38,15 @@ public class App extends Application {
         Scene scene = new Scene(root, ScreenUtils.WIDTH, ScreenUtils.HEIGHT);
         primaryStage.setScene(scene);
         primaryStage.show();
+    }
+
+    public void showDialog(String title, String contentText){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(contentText);
+
+        alert.showAndWait();
     }
 
 

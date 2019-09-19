@@ -3,20 +3,17 @@ package data;
 import com.google.gson.Gson;
 import data.model.scene.SceneModel;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class JsonSceneRepository implements SceneRepository {
     public void save(SceneModel sceneModel) {
-
-        String path = "src/main/resources/maps/" + sceneModel.getFileName() + ".json";
+        String path = getPathToJsonFile(sceneModel.getFileName());
         File file = new File(path);
         try {
             file.createNewFile();
             FileWriter fileWriter = new FileWriter(path);
-            Gson gsonBuilder = new Gson().newBuilder().create();
-            gsonBuilder.toJson(sceneModel, fileWriter);
+            Gson gson = new Gson().newBuilder().create();
+            gson.toJson(sceneModel, fileWriter);
             fileWriter.close();
         } catch (IOException e) {
             System.out.println(e.toString());
@@ -24,7 +21,19 @@ public class JsonSceneRepository implements SceneRepository {
         }
     }
 
-    public SceneModel load(String fileName) {
-        return null;
+    public SceneModel load(String fileName) throws FileNotFoundException {
+        String path = getPathToJsonFile(fileName);
+        File file = new File(path);
+        if(!file.exists()){
+            throw new FileNotFoundException();
+        }else{
+            FileReader fileReader = new FileReader(path);
+            Gson gson = new Gson().newBuilder().create();
+            return gson.fromJson(fileReader,SceneModel.class);
+        }
+    }
+
+    private String getPathToJsonFile(String fileName){
+        return "src/main/resources/maps/" + fileName + ".json";
     }
 }

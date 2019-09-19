@@ -33,6 +33,10 @@ public class SceneModel {
         }
     }
 
+    public ArrayList<String> getBlocks() {
+        return blocks;
+    }
+
     public String getFileName() {
         return fileName;
     }

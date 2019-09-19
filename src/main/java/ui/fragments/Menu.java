@@ -68,6 +68,9 @@ public class Menu extends BaseFragment {
         buttonSave.setOnMouseClicked(event -> {
             appController.onSaveButtonClicked(fieldSceneName.getText().trim());
         });
+        buttonLoad.setOnMouseClicked(event -> {
+            appController.onLoadButtonClicked(fieldSceneName.getText().trim());
+        });
     }
 
 

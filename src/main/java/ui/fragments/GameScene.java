@@ -1,12 +1,14 @@
 package ui.fragments;
 
 import controller.AppController;
+import data.model.BlockModel;
 import ui.base.BaseFragment;
 import ui.nodes.Block;
 import utils.GameUtils;
 import utils.ScreenUtils;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class GameScene extends BaseFragment{
 
@@ -34,7 +36,6 @@ public class GameScene extends BaseFragment{
                         appController.onBlockNeedToRemove(block);
                     }
                 });
-
                 blocks.add(block);
             }
         }
@@ -60,6 +61,19 @@ public class GameScene extends BaseFragment{
         block.setImage(imageName);
     }
 
+    public void updateBlocks(List<BlockModel> blockModels){
+        clearBlocks();
+        for(BlockModel blockModel: blockModels){
+            blocks.stream().filter(uiBlock -> uiBlock.equals(blockModel))
+                    .findFirst().ifPresent(uiBlock -> addImageTo(uiBlock,blockModel.imageName));
+        }
+    }
+
+    public void clearBlocks(){
+        for(Block block: blocks){
+            block.removeImage();
+        }
+    }
 
     public void removeImage(Block block) {
         block.removeImage();

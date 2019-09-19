@@ -36,7 +36,7 @@ public class ImagePicker extends BaseFragment {
 
         imagesToPick = new ArrayList<>();
 
-        GameUtils.imagesMap.forEach((imageName, imagePath) -> {
+        GameUtils.getImagePaths().forEach((imageName, imagePath) -> {
             ImageToPick image = new ImageToPick(imageName);
             image.setOnMouseClicked(event -> appController.onImageToPickClicked(image.name));
 

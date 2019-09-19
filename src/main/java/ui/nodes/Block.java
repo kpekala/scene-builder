@@ -1,5 +1,6 @@
 package ui.nodes;
 
+import data.model.BlockModel;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import utils.GameUtils;
@@ -25,10 +26,16 @@ public class Block extends ImageView {
 
     public void setImage(String imageName){
         this.imageName = imageName;
+        System.out.println(imageName);
         setImage(new Image(ImagePathGenerator.getPath(imageName)));
     }
 
     public void removeImage(){
+        imageName = "empty";
         setImage(new Image("/assets/empty.png"));
+    }
+
+    public boolean equals(BlockModel blockModel){
+        return indexX == blockModel.indexX && indexY == blockModel.indexY;
     }
 }
