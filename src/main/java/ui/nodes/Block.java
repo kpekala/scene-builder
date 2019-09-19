@@ -3,7 +3,6 @@ package ui.nodes;
 import data.model.BlockModel;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import utils.GameUtils;
 import utils.ImagePathGenerator;
 
 public class Block extends ImageView {

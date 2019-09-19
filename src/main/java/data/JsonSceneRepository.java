@@ -12,7 +12,7 @@ public class JsonSceneRepository implements SceneRepository {
         try {
             file.createNewFile();
             FileWriter fileWriter = new FileWriter(path);
-            Gson gson = new Gson().newBuilder().create();
+            Gson gson = new Gson().newBuilder().setPrettyPrinting().create();
             gson.toJson(sceneModel, fileWriter);
             fileWriter.close();
         } catch (IOException e) {
