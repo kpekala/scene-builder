@@ -10,6 +10,7 @@ public class Block extends ImageView {
     public int indexX;
     public int indexY;
     public int imageSize = 26;
+    public int originalImageSize = 30;
     public String imageName = "empty";
 
     public Block(int indexX, int indexY){
@@ -18,14 +19,17 @@ public class Block extends ImageView {
 
         setX(indexX * imageSize);
         setY(indexY * imageSize);
-        setFitHeight(imageSize);
-        setFitHeight(imageSize);
+       
+
+        double scale = (double) imageSize/originalImageSize;
+        setScaleX(scale);
+        setScaleY(scale);
+
         setImage(new Image("/assets/empty.png"));
     }
 
     public void setImage(String imageName){
         this.imageName = imageName;
-        System.out.println(imageName);
         setImage(new Image(ImagePathGenerator.getPath(imageName)));
     }
 

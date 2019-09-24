@@ -8,7 +8,7 @@ import utils.ImagePathGenerator;
 public class ImageToPick extends ImageView {
 
     public String name;
-    public StackPane imageWrapper;
+    private StackPane imageWrapper;
 
     public ImageToPick(String name){
 
@@ -19,19 +19,25 @@ public class ImageToPick extends ImageView {
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
-            setScaleX(2);
-            setScaleY(2);
+            setScaleX(1.3);
+            setScaleY(1.3);
             initWrapper();
         }
     }
 
     private void initWrapper() {
+        int imageSize = (int) (getImage().getWidth() * getScaleX());
+        int wrapperSize = imageSize + 4;
         imageWrapper = new StackPane();
-        imageWrapper.setMaxHeight(66);
-        imageWrapper.setMinHeight(66);
-        imageWrapper.setMinWidth(66);
-        imageWrapper.setMaxWidth(66);
+        imageWrapper.setMaxHeight(wrapperSize);
+        imageWrapper.setMinHeight(wrapperSize);
+        imageWrapper.setMinWidth(wrapperSize);
+        imageWrapper.setMaxWidth(wrapperSize);
         imageWrapper.getChildren().add(this);
+    }
+
+    public StackPane getImageWrapper() {
+        return imageWrapper;
     }
 
     public void changeToClicked(){

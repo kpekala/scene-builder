@@ -3,7 +3,7 @@ package ui.fragments;
 import controller.AppController;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.layout.HBox;
+import javafx.scene.layout.GridPane;
 import ui.base.BaseFragment;
 import ui.nodes.ImageToPick;
 import utils.Colors;
@@ -11,6 +11,7 @@ import utils.GameUtils;
 import utils.ScreenUtils;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ImagePicker extends BaseFragment {
 
@@ -18,7 +19,7 @@ public class ImagePicker extends BaseFragment {
     private static int WIDTH = ScreenUtils.WIDTH - START_X;
     private static int HEIGHT = 130;
 
-    private HBox hBox;
+    private GridPane imagesGrid;
     private ArrayList<ImageToPick> imagesToPick;
 
     public ImagePicker(AppController appController) {
@@ -27,12 +28,13 @@ public class ImagePicker extends BaseFragment {
 
     @Override
     public void initNodes() {
-        hBox = new HBox(24);
-
-        hBox.setPadding(new Insets(20, 20, 20 ,20));
-        hBox.setAlignment(Pos.CENTER_LEFT);
-        hBox.setMinWidth(WIDTH);
-        hBox.setMinHeight(HEIGHT);
+        imagesGrid = new GridPane();
+        imagesGrid.setPadding(new Insets(10, 10, 10 ,20));
+        imagesGrid.setAlignment(Pos.CENTER_LEFT);
+        imagesGrid.setMinWidth(WIDTH);
+        imagesGrid.setMinHeight(HEIGHT);
+        imagesGrid.setVgap(10);
+        imagesGrid.setHgap(10);
 
         imagesToPick = new ArrayList<>();
 
@@ -46,10 +48,18 @@ public class ImagePicker extends BaseFragment {
 
     @Override
     public void appendNodes() {
-        for(ImageToPick image: imagesToPick){
-            hBox.getChildren().add(image.imageWrapper);
+        Iterator<ImageToPick> imageIterator = imagesToPick.iterator();
+        for(int y = 0; y<2; y++){
+
+            for(int x=0; x<12; x++){
+                if(imageIterator.hasNext()){
+                    ImageToPick nextImage = imageIterator.next();
+                    GridPane.setConstraints(nextImage.getImageWrapper(),x,y);
+                    imagesGrid.getChildren().add(nextImage.getImageWrapper());
+                }
+            }
         }
-        getChildren().addAll(hBox);
+        getChildren().add(imagesGrid);
     }
 
     @Override
