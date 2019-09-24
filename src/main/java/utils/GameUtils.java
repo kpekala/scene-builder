@@ -35,6 +35,22 @@ public class GameUtils {
         blockChars.put("door1",'!');
         blockChars.put("door2",'$');
         blockChars.put("door3",'%');
+        blockChars.put("sand0",'(');
+        blockChars.put("sand1",'^');
+        blockChars.put("sand2",'&');
+        blockChars.put("sand3",'*');
+        blockChars.put("sand4",')');
+        blockChars.put("ground-grass0",')');
+        blockChars.put("ground-grass1",'_');
+        blockChars.put("ground-grass2",'-');
+        blockChars.put("ground-grass3",'=');
+        blockChars.put("chest1",'+');
+        blockChars.put("chest2",'[');
+        blockChars.put("bed0",';');
+        blockChars.put("bed1",':');
+        blockChars.put("wall0",'/');
+        blockChars.put("wall1",'?');
+        blockChars.put("wall2",'.');
         return blockChars;
     }
 
@@ -59,6 +75,22 @@ public class GameUtils {
         imageMap.put("door1","assets/door1.png");
         imageMap.put("door2","assets/door2.png");
         imageMap.put("door3","assets/door3.png");
+        imageMap.put("sand0","assets/sand0.png");
+        imageMap.put("sand1","assets/sand1.png");
+        imageMap.put("sand2","assets/sand2.png");
+        imageMap.put("sand3","assets/sand3.png");
+        imageMap.put("sand4","assets/sand4.png");
+        imageMap.put("ground-grass0","assets/ground-grass0.png");
+        imageMap.put("ground-grass1","assets/ground-grass1.png");
+        imageMap.put("ground-grass2","assets/ground-grass2.png");
+        imageMap.put("ground-grass3","assets/ground-grass3.png");
+        imageMap.put("chest1","assets/chest1.png");
+        imageMap.put("chest2","assets/chest2.png");
+        imageMap.put("bed0","assets/bed0.png");
+        imageMap.put("bed1","assets/bed1.png");
+        imageMap.put("wall0","assets/wall0.png");
+        imageMap.put("wall1","assets/wall1.png");
+        imageMap.put("wall2","assets/wall2.png");
         return imageMap;
     }
 

@@ -19,7 +19,7 @@ public class Block extends ImageView {
 
         setX(indexX * imageSize);
         setY(indexY * imageSize);
-       
+
 
         double scale = (double) imageSize/originalImageSize;
         setScaleX(scale);

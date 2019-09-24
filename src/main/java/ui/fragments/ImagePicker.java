@@ -51,7 +51,7 @@ public class ImagePicker extends BaseFragment {
         Iterator<ImageToPick> imageIterator = imagesToPick.iterator();
         for(int y = 0; y<2; y++){
 
-            for(int x=0; x<12; x++){
+            for(int x=0; x<16; x++){
                 if(imageIterator.hasNext()){
                     ImageToPick nextImage = imageIterator.next();
                     GridPane.setConstraints(nextImage.getImageWrapper(),x,y);
